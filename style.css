@@ -1,0 +1,64 @@
+.imageSize{
+    height: 200px;
+    width: 200px;
+}
+.imageSize2{
+    height: 400px;
+    width: 400px;
+}
+
+.column {
+    float: left;
+    width: 45%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .box-set {
+    position: relative;
+    height: 400px;
+    background: darkgray;
+  }
+  
+  .box {
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    background: #2db34a;
+    border: 2px solid black;
+  }
+  
+  /* Box rules: percentages define anchors (i.e. position of each box relative to browser window) */
+  
+  .box-1 {
+    width: 400px;
+    height: 400px;
+    top: 6%;
+    left: 1%;
+  }
+  
+  .box-2 {
+    width: 400px;
+    height: 400px;  
+    top: 6%;
+    right: -10px;
+  }
+  
+  .box-3 {
+    width: 400px;
+    height: 400px;
+    right: 20px;
+    bottom: -10px;
+  }
+  
+  .box-4 {
+    width: 400px;
+    height: 400px;
+    bottom: 0;
+  }
+  
